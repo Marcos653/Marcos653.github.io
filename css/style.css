@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+
+body {
+    font-size: 100%;
+    background-image: linear-gradient(to right top, #4d5e78, #2d4e5a, #203b3a, #1b2720, #12140c);
+  }
 
 
 #menu{
-    background-color: rgb(61, 5, 61);   
     box-shadow: 0px 5px 5px rgb(0, 0, 0);
 }
 
@@ -22,20 +27,20 @@ h1{
 
 }
 
-nav {
+.menus {
     position: absolute;
     top: 30px;
     right: 0;
     padding-right: 15px;
 }
 
-nav li{
+.menus li{
     display: inline;
     margin-left: 15px;
     text-transform: uppercase;
 }
 
-nav a{
+.menus a{
     text-transform: uppercase;
     color: black;
     font-weight: bold;
@@ -44,8 +49,138 @@ nav a{
     font-family: 'Bebas Neue', cursive;
 }
 
-nav a:hover{
+.menus a:hover{
     cursor: pointer;
     color: white;
     text-decoration: underline;
 }
+
+#apresentacao{
+    position: relative;
+    width: 100%;
+    max-width: 1080px;
+    height: 100%;
+    max-height: 300px;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.my-img{
+    margin: auto;
+    top: 10px;
+    right: 0;
+    position: absolute;
+}
+
+.my-img img{ 
+    display: inline-block;
+    margin-left: 15px;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1080px;
+    height: 400px;
+    margin: 10px auto;
+    padding: 20px 0px;
+}
+
+main h2{
+    color: white;
+    font-size: 36px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+main p{
+    font-family: 'Gideon Roman', cursive;
+    color: white;
+    font-size: 18px;
+}
+
+.redes{
+    position: absolute;
+    top: 150px;
+    right: 1;
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: center;
+    justify-self: center;
+}
+
+.redes img{
+    display: inline;
+    padding: 10px;
+}
+
+#sobre-mim{
+    position: relative;
+    width: 100%;
+    max-width: 1080px;
+    height: 100%;
+    max-height: 300px;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.container-mim{
+    position: relative;
+    width: 100%;
+    max-width: 1080px;
+    height: 400px;
+    margin: 10px auto;
+    padding: 20px 0px;
+}
+
+.container-mim h2{
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.container-mim p{
+    text-align: center;
+    font-family: 'Gideon Roman', cursive;
+    color: white;
+    font-size: 18px;
+}
+
+#skills{
+    position: relative;
+    width: 100%;
+    max-width: 1080px;
+    height: 100%;
+    max-height: 300px;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.container-sh{
+    position: relative;
+    width: 100%;
+    max-width: 1080px;
+    height: 400px;
+    margin: 10px auto;
+    padding: 20px 0px;
+}
+
+.container-sh h2{
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.skills li{
+    display: inline;
+    padding-left: 40px;
+    align-items: center;
+}
+
+
+
